@@ -1,0 +1,153 @@
+<html>
+    
+
+
+<head>
+<style>
+
+body{
+    background-color: rgb(212, 86, 86);
+   
+
+}
+
+
+
+
+
+#head{
+    background-color: lightblue;
+}
+
+
+
+#fname{
+    width: 25%;
+    
+}
+
+
+#lname{
+    width: 25%;
+}
+#email{
+    width: 25%;
+}
+#age{
+    width: 25%;
+}
+
+
+
+    #fname,input[type=text]:focus {
+  background-color: lightblue;
+  border: 5px black;
+
+}
+
+
+select{
+    width: 25%;
+    padding: 0.7%;
+    background-color: #f1f1f1;
+}
+
+input[type=email]:focus {
+  background-color: lightblue;
+  border: 5px black;
+
+}
+
+input[type=number]:focus {
+  background-color: lightblue;
+  border: 5px black;
+
+}
+input[type=submit]{
+    padding: 15px 30px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+
+
+
+
+</style>
+
+
+</head>
+
+
+<body>
+    <h1 id="head">Take your order</h1>
+    <h3>
+    <p id="dec">Fill details below to complete your order</p>
+</h3>
+<center>
+<form id="my form">
+<label>First Name </label>
+<br>
+<input id="fname" type="text" placeholder="Aly" required>
+<br>
+<br>
+<label>Last Name</label>
+<br>
+<input id="lname" type="text" placeholder="Mohamed" required>
+<br>
+<br>
+<label>Email </label>
+<br>
+<input id="email" type="email" placeholder="aly011@gmail.com" required>
+<br>
+<br>
+<label>Age</label>
+<br>
+<input id="age" type="number" min="7" placeholder="18">
+<br>
+<br>
+<label>Select payment</label>
+<br>
+<select id="drop menu">
+<option value="1">Visa</option>
+<option value="2">Master Card</option>
+<option value="3">Cash on deilevry</option>
+
+</select>
+<br>
+<br>
+<label>Country</label>
+<br>
+<select id="drop menu2">
+<option value="4">Egypt</option>
+<option value="5">Suadi Arabia</option>
+<option value="6">United Arab Emirates</option>
+</select>
+<br>
+<br>
+<p>Gender</p>
+
+<label>Male</label>
+<input id="radius" type="radio" name="title">
+
+<label>Female</label>
+<input id="radio" type="radio" name="title">
+<br>
+<br>
+<label>Feadback</label>
+<br>
+
+
+<textarea rows="3" cols="40"></textarea>
+<br>
+<br>
+<input type="submit" value="submit">
+</form>
+</center>
+
+
+</body>
+
+
+
+</html>
